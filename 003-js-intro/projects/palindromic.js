@@ -12,5 +12,5 @@ for(let i=100;i < 1000;i++) {
             largestPalindrome = palindrome
         }
     }
-}
+} 
 console.log(`The largest palindore for two 3-digit numbers is: ${largestPalindrome}`);

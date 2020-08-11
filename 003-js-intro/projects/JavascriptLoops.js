@@ -30,10 +30,6 @@ console.log(`Challenge #2 is: ${sum2}`);
 let testNumber = 600851475143 ;
 let primes = [];
 
-for(let i =1;i < testNumber; i++){
-
-}
-
 for (let divisible = 2;divisible <= testNumber;divisible++) {
         while (testNumber % divisible === 0) {
         testNumber = testNumber/divisible;
