@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .white {
   background-color: #ffffff;
 }
@@ -14,13 +18,48 @@
   background-color: #1e8cbe;
 }
 
+.darkBlue {
+  background-color: #0070a4;
+}
+
 .black {
   background-color: #000000;
 }
 
+.gray {
+  background-color: #616e7f;
+}
+
+.lightgray {
+  background-color: #c7d2d8;
+}
 .header {
   background-color: #118bc0;
   height: 3rem;
+  display: flex;
+  padding-left: 0.9375rem;
+  align-items: center;
+}
+
+.headerLeftBox {
+  height: 2rem;
+  max-width: 2rem;
+  width: 100%;
+  margin-right: 0.875rem;
+}
+
+.headerMiddleBox {
+  height: 2rem;
+  max-width: 07.3125rem;
+  width: 100%;
+}
+
+.headerRightBox {
+  height: 2.875rem;
+  border-bottom: 0.125rem;
+  max-width: 4.6875rem;
+  width: 100%;
+  margin-left: auto;
 }
 
 .main {
@@ -73,6 +112,22 @@
   max-width: 18.8125rem;
   width: 100%;
   margin-bottom: 1.875rem;
+  display: flex;
+}
+
+.smallGrayBox {
+  height: 3.5625rem;
+  max-width: 3rem;
+  width: 100%;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 0.625rem;
+}
+
+.largeGrayBox {
+  height: 3.4375rem;
+  max-width: 15rem;
+  width: 100%;
 }
 
 .middleBox {
@@ -92,11 +147,39 @@
 .bottomNormalBoxes {
   height: 13.4375rem;
   margin-bottom: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.lightGrayBox {
+  margin-top: 1.25rem;
+  height: 3.875rem;
+  max-width: 3.875rem;
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+.smallLongGrayBox {
+  height: 1.4375rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.largeLongGrayBox {
+  height: 3rem;
+  width: 100%;
 }
 
 .bottomLargeBoxes {
   height: 14.9375rem;
   margin-bottom: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
 }
 
 .bottomArea {
