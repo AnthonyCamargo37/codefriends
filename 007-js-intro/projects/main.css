@@ -1,5 +1,10 @@
 * {
   box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.mainText {
+  color: #ffffff;
 }
 
 .white {
@@ -50,8 +55,15 @@
 
 .headerMiddleBox {
   height: 2rem;
-  max-width: 07.3125rem;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.headerCom {
+  display: inline;
+  color: #87cee4;
+  font-size: 1.2rem;
 }
 
 .headerRightBox {
@@ -60,11 +72,14 @@
   max-width: 4.6875rem;
   width: 100%;
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
 }
 
 .main {
   background-color: #344051;
-  height: 68.125rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,6 +95,7 @@
   text-align: center;
   font-family: Helvetica;
   padding-bottom: 2.5rem;
+  margin-top: 10.3125rem;
 }
 
 .subTitle {
@@ -94,9 +110,13 @@
 
 .subTitleBody {
   border: 0.625rem solid #212934;
-  max-width: 12.9375rem;
-  width: 100%;
-  height: 3.25rem;
+  padding: 1 1.75rem;
+  height: 4.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
 
 .smallwhiteBox {
@@ -115,6 +135,16 @@
   display: flex;
 }
 
+.titleBoxTopText {
+  font-size: 1.07rem;
+  font-weight: bold;
+}
+
+.titleBoxBottomText {
+  font-size: 0.9rem;
+  display: flex;
+}
+
 .smallGrayBox {
   height: 3.5625rem;
   max-width: 3rem;
@@ -126,14 +156,23 @@
 
 .largeGrayBox {
   height: 3.4375rem;
-  max-width: 15rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 0.625rem;
 }
 
 .middleBox {
   height: 11.75rem;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #314156;
+  line-height: 2.2rem;
 }
 
 .bottom {
@@ -166,10 +205,17 @@
   height: 1.4375rem;
   width: 100%;
   margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #426277;
+  font-weight: bold;
 }
 .largeLongGrayBox {
   height: 3rem;
   width: 100%;
+  text-align: center;
+  display: flex;
+  line-height: 1.5rem;
 }
 
 .bottomLargeBoxes {
@@ -187,15 +233,28 @@
   height: 10.5625rem;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
-  padding-top: 6.0625rem;
   padding-bottom: 1.25rem;
+}
+
+.bottomAreaTopText {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
 }
 
 .bottomAreaBox {
   height: 3.25rem;
   max-width: 12.9375rem;
   width: 100%;
+  margin-top: auto;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
