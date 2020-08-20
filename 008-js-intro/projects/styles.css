@@ -1,0 +1,52 @@
+#board {
+  background-color: black;
+  width: 57.5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #6a8be7;
+  border-radius: 2rem;
+  height: 8.3125rem;
+  max-width: 8.3125rem;
+  width: 100%;
+  margin: 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.flippedCard {
+  background-color: #de63b4;
+  border-radius: 2rem;
+  height: 8.3125rem;
+  max-width: 8.3125rem;
+  width: 100%;
+  margin: 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.completedCard {
+  background-color: #c4cce1;
+  border-radius: 2rem;
+  height: 8.3125rem;
+  max-width: 8.3125rem;
+  width: 100%;
+  margin: 0.625rem;
+}
+
+h1 {
+  width: 57.5rem;
+  text-align: center;
+}
+
+.menu {
+  width: 57.5rem;
+  text-align: right;
+}
