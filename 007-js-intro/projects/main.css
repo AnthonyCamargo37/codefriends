@@ -53,6 +53,11 @@
   margin-right: 0.875rem;
 }
 
+.pictures {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .headerMiddleBox {
   height: 2rem;
   display: flex;
@@ -109,7 +114,8 @@
 }
 
 .subTitleBody {
-  border: 0.625rem solid #212934;
+  border: 0.625rem solid rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
   padding: 1 1.75rem;
   height: 4.5rem;
   font-size: 1.5rem;
@@ -125,6 +131,10 @@
   height: 1.25rem;
   margin-top: 13.25rem;
   margin-bottom: 8.375rem;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .titleBoxes {
@@ -199,6 +209,11 @@
   max-width: 3.875rem;
   width: 100%;
   margin-bottom: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 1rem;
 }
 
 .smallLongGrayBox {

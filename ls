@@ -1,0 +1,9 @@
+user.email=Anthonythk37@gmail.com
+user.name=Anthony Camargo
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+remote.origin.url=https://github.com/AnthonyCamargo37/codefriends.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
